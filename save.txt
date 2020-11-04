@@ -1,0 +1,21 @@
+font-family: 'Dosis', sans-serif;
+font-family: 'Lato', sans-serif;
+
+
+  <div class="row">
+                <div class="col-md-6">
+                    <div class="events">
+                        <div class="date_img">
+                            <img src="images/15aug.png" class="img-fluid" alt="img">
+                        </div>
+                        <div class="event_heading">
+                            <h2>Art's Celebration Night</h2>
+                        </div>
+                        <div class="starting_time">
+                            <i class="fas fa-clock"></i>
+                            <p>STARTING <span>7:00 PM</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6"></div>
+            </div>

@@ -1,0 +1,344 @@
+body{
+    background-image: url(../images/background.png);
+    font-family: 'Dosis', sans-serif;
+}
+
+/*header start*/
+header{
+    background-color: #FFD338;
+}
+
+.custom-nav ul li a{
+    color: white !important;
+    padding: 0px 20px !important;
+    border-radius: 15px;
+}
+
+.custom-nav ul li a:hover{
+    
+    background-color: #F05C5C;
+}
+.custom-secondary{
+    border: none !important;
+    background: transparent !important;
+}
+
+.custom-icon{
+    padding: 10px;
+    color: white;
+}
+.custom-icon1{
+    padding: 10px;
+    color: white;
+}
+/*header start*/
+/*banner start*/
+#banner{
+    background-image: url(../images/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 700px;
+}
+
+.banner_text{
+    margin: 300px 0;
+}
+.banner_arrow i{
+    font-size: 40px;
+}
+/*banner end*/
+
+.common_title{
+    padding-top: 100px;
+    text-transform: uppercase;
+    
+}
+.common_title h1{
+    
+    font-weight: bold;
+    font-size: 30px;
+}
+.common_title hr{
+    width: 250px;
+    border: 2px dashed white;
+}
+
+.kid_content{
+    padding: 40px;
+}
+.kid_content hr{
+    width: 200px;
+    margin-left: 0;
+    border: 2px dashed white;
+}
+.kid_image{
+    padding: 40px;
+}
+.kid_image img{
+    border-radius: 10px;
+}
+.desiration{
+    background-image: url(../images/section-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+}
+
+.desiration_content{
+     margin: 30px 0;
+}
+.desiration_content p {
+    color: white;
+    font-weight: bold;
+}
+
+.featured_title{
+    padding-top: 100px;
+}
+.featured_title h1{
+     font-weight: bold;
+        font-size: 30px;
+
+}
+
+/*card*/
+
+.card {
+    font-size: 1em;
+    overflow: hidden;
+    padding: 0;
+    border: none;
+    border-radius: .28571429rem;
+    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+}
+
+.cardh{
+    border-bottom: none;
+    background-color: #1EC0FE;
+    padding: 5px 20px;
+}
+.card-block {
+    font-size: 1em;
+    position: relative;
+    margin: 0;
+    padding: 1em;
+    border: none;
+    border-top: 1px solid rgba(34, 36, 38, .1);
+    box-shadow: none;
+}
+
+.card-img-top {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.card-title {
+    font-size: 1.28571429em;
+    font-weight: 700;
+    line-height: 1.2857em;
+}
+
+.card-text {
+    clear: both;
+    margin-top: .5em;
+    color: rgba(0, 0, 0, .68);
+}
+
+.card-footer {
+    font-size: 1em;
+    position: static;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    padding: .75em 1em;
+    background: #fff;
+}
+
+
+.profile {
+    position: absolute;
+    top: -20px;
+    right: 15px;
+    display: inline-block;
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    border-radius: 50%;
+}
+
+.meta {
+    font-size: 1em;
+    color: rgba(0, 0, 0, .4);
+}
+
+.meta a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, .4);
+}
+
+.meta a:hover {
+    color: rgba(0, 0, 0, .87);
+}
+/*card end*/
+
+.plus{
+   width: 1100px;
+    background-color: #56D57E;
+    border: none;
+    margin: 35px 0;
+    border-radius: 15px;
+}
+.plus a{
+    color: white;
+    font-size: 25pt;
+    text-decoration: none;
+}
+
+.memorable{
+    background-image: url(../images/section-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+}
+
+.memory{
+    margin: 35px 10px;
+}
+.memory img{
+    border-radius: 10px;
+}
+.view_more{
+    margin: 25px 0px;
+}
+
+.tlogo{
+    margin-top: 50px;
+    font-size: 25pt;
+    color: #1EC0FE;
+}
+.twitter_text{
+    margin: 25px 0px;
+}
+.twitter_hash{
+    color: #1EC0FE;
+}
+
+/*teacher*/
+
+.tinfo{
+        padding: 25px 30px;
+}
+
+.timg img{
+        border: none;
+    border-radius: 15px;
+}
+.tname h2{
+    color: #1EC0FE;
+    font-weight: bold;
+}
+.ttext{
+        padding: 20px 0;
+}
+.ticon{
+    padding: 5px 0;
+}
+.ticon span{
+    padding: 0px  5px;
+}
+.fb{
+    color: midnightblue;
+}
+.twt{
+    color: #1EC0FE;
+}
+.gplus{
+    color: firebrick;
+}
+.tmb{
+    color: darkblue;
+}
+
+.followme{
+    font-weight: bold;
+}
+
+
+/*teacher end*/
+/*achievements*/
+.achievements{
+   background-image: url(../images/1920.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.acd{
+    padding-bottom: 60px;
+}
+.what{
+    color: #56D37E;
+}
+.numbers{
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+}
+.actext{
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+    padding: 10px 0;
+}
+/*achievements end*/
+
+/*event news*/
+
+.event_heading h3 {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+/*event news end*/
+/*footer*/
+footer{
+    background-color: rgb(192, 184, 184);
+    padding: 20px;
+    margin-top: 5%;
+    font-weight: 600;
+    color: black;
+}
+footer a{
+    color: black !important;
+}
+.footer_link ul li {
+    color: black !important;
+    margin-top: 10px;
+}
+.footer_sec{
+    padding: 50px;
+}
+.footer_sec h2{
+    color: black !important;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.course{
+    margin: 10px 0px;
+}
+.footer_widget input{  
+    border: 2px solid grey;
+    margin-bottom: 10px;
+}
+.footer_widget textarea{
+    border: 2px dashed grey;
+    margin-bottom: 10px;
+}
+.footer_widget button{
+    background-color: #FFD338;
+    float: right;
+}
